@@ -21,7 +21,7 @@ def WebShare_Proxies():
 	#
 	#
 	#
-	url='https://proxy.webshare.io/proxy/list/download/otmpayznzacmxjignpcakcprksaigdhwfdxwvzto/-/socks/username/direct/'
+	url='https://proxy.webshare.io/proxy/list/download/****************/-/socks/username/direct/'
 	myfile = requests.get(url)
 	open('webshare_proxies.txt', 'wb').write(myfile.content)
 	#
